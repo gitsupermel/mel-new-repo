@@ -12,3 +12,5 @@ services:
     container_name: 16-bits-front-end
     ports:
       - "3000:3000"
+    links:
+      - 16-bits-back-end
